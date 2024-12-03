@@ -36,6 +36,7 @@
             colors: {
               clifford: "#da373d",
               "Bike-primary": "#E76F51",
+              "Bike-primary-bg": "#E76F511A",
             },
           },
         },
@@ -99,10 +100,186 @@
           </div>
         </div>
       </nav>
+      <!--nav section done here-->
+
+      <!--carousel part starts here-->
+
+      <div class="carousel w-full h-[550px] rounded-md bg-Bike-primary-bg">
+        <div id="slide1" class="carousel-item relative w-full">
+          <div class="flex flex-col lg:flex-row p-24">
+            <!--contant/text div-->
+            <div class="space-y-7 flex-1">
+              <h1 class="font-bold text-6xl">
+                Ride-on R15 V4 <br />with Smile
+              </h1>
+              <p>
+                Amet minim mollit non deserunt ullamco <br />
+
+                est sit aliqua dolor do amet sint. Velit officia consequat duis
+                enim velit mollit.
+              </p>
+              <button class="bg-Bike-primary text-white px-4 py-2 rounded">
+                perchase
+              </button>
+            </div>
+
+            <!--image div-->
+
+            <div class="flex-1">
+              <img src="./images/slider/bike1.png" class="w-[500px]" />
+            </div>
+          </div>
+          <div
+            class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between"
+          >
+            <a href="#slide2" class="btn btn-circle">❮</a>
+            <a href="#slide3" class="btn btn-circle">❯</a>
+          </div>
+        </div>
+
+        <!--slide 2 starts here-->
+
+        <div id="slide2" class="carousel-item relative w-full">
+          <div class="flex flex-col lg:flex-row lg:p-24 sm:12">
+            <!--contant/text div-->
+            <div class="space-y-7 flex-1">
+              <h1 class="font-bold text-6xl">
+                Ride-on R15 V4 <br />with Smile
+              </h1>
+              <p>
+                Amet minim mollit non deserunt ullamco <br />
+
+                est sit aliqua dolor do amet sint. Velit officia consequat duis
+                enim velit mollit.
+              </p>
+              <button class="bg-Bike-primary text-white px-4 py-2 rounded">
+                perchase
+              </button>
+            </div>
+
+            <!--image div-->
+
+            <div class="flex-1">
+              <img src="./images/slider/bike2.png" class="w-[500px]" />
+            </div>
+          </div>
+          <div
+            class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between"
+          >
+            <a href="#slide3" class="btn btn-circle">❮</a>
+            <a href="#slide1" class="btn btn-circle">❯</a>
+          </div>
+        </div>
+
+        <!--slide 3 starts here-->
+
+        <div id="slide3" class="carousel-item relative w-full">
+          <div class="flex flex-col lg:flex-row lg:p-24 sm:12">
+            <!--contant/text div-->
+            <div class="space-y-7 flex-1">
+              <h1 class="font-bold text-6xl">
+                Ride-on R15 V4 <br />with Smile
+              </h1>
+              <p>
+                Amet minim mollit non deserunt ullamco <br />
+
+                est sit aliqua dolor do amet sint. Velit officia consequat duis
+                enim velit mollit.
+              </p>
+              <button class="bg-Bike-primary text-white px-4 py-2 rounded">
+                perchase
+              </button>
+            </div>
+
+            <!--image div-->
+
+            <div class="flex-1">
+              <img src="./images/slider/bike3.png" class="w-[500px]" />
+            </div>
+          </div>
+          <div
+            class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between"
+          >
+            <a href="#slide1" class="btn btn-circle">❮</a>
+            <a href="#slide2" class="btn btn-circle">❯</a>
+          </div>
+        </div>
+      </div>
     </header>
 
     <!--main section-->
-    <main class="md:container mx-auto"></main>
+    <main class="md:container mt-16 mx-auto">
+      <div>
+        <h2 class="text-center font-bold text-2xl mb-2">
+          Fetured Bikes In This Year
+        </h2>
+        <p class="text-center text-orange-600">Best Bike Collection</p>
+        <div
+          class="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-16"
+        >
+          <img src="./images/others/extrabike.png" alt="" />
+          <img src="./images/others/extrabike.png" alt="" />
+          <img src="./images/others/extrabike.png" alt="" />
+        </div>
+      </div>
+
+      <!--latest news section start here-->
+
+      <h2 class="text-center font-bold text-2xl mt-16">Latest News</h2>
+      <div class="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div class="card glass mt-16 shadow-xl">
+          <figure>
+            <img src="./images/others/latest1.png" alt="car!" />
+          </figure>
+          <div class="card-body">
+            <h2 class="card-title">Ducati XDIAVEL S-73</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus,
+              fermentum amet faucibus sed id nisi lectus at.
+            </p>
+            <div class="card-actions justify-start">
+              <button class="bg-Bike-primary text-white px-4 py-2 rounded mt-8">
+                Read More
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="card glass mt-16 shadow-xl">
+          <figure>
+            <img src="./images/others/latest2.png" alt="car!" />
+          </figure>
+          <div class="card-body">
+            <h2 class="card-title">Motorcycles & Scooters</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus,
+              fermentum amet faucibus sed id nisi lectus at.
+            </p>
+            <div class="card-actions justify-start">
+              <button class="bg-Bike-primary text-white px-4 py-2 rounded mt-8">
+                Read More
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="card glass mt-16 shadow-xl">
+          <figure>
+            <img src="./images/others/latest3.png" alt="car!" />
+          </figure>
+          <div class="card-body">
+            <h2 class="card-title">2021 Honda CBR500R</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus,
+              fermentum amet faucibus sed id nisi lectus at.
+            </p>
+            <div class="card-actions justify-start">
+              <button class="bg-Bike-primary text-white px-4 py-2 rounded mt-8">
+                Read More
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
 
     <!--footer section-->
     <footer></footer>
